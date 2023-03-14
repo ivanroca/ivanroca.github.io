@@ -1,0 +1,92 @@
+body{
+	font-family: Arial, Verdana;
+}
+.dropdownMenu{
+	width: 100%;
+	margin-bottom: 3px;
+
+}
+
+p.Azul,
+h2.Azul,
+.titleAzul{
+	padding: 7px 10px;
+	background-color: #3c5f88;
+	color: white;
+	margin-bottom: 0;
+	font-weight:bold;
+}
+
+.titleAzul:hover{
+	background-color: #6a91bf;
+	} 
+
+
+.flotadoIzda{
+	
+	width:45%;
+	display:inline-block;
+	float:left;
+	margin: 5px;
+}
+
+p.Amarillo,
+h2.Amarillo,
+.titleAmarillo{
+	padding: 7px 10px;
+	background-color: #ffcd00;
+	color: black;
+	margin-bottom: 0;
+	font-weight:bold;
+
+}
+
+.titleAmarillo:hover{
+	background-color: #ffcd009e;
+}
+
+p.Gris,
+h2.Gris,
+.titleGris{
+	padding: 7px 10px;
+	background-color: #384850;
+	color: white;
+	margin-bottom: 0;
+	font-weight:bold;
+}
+
+.titleGris:hover{
+	background-color: #384850;
+	} 
+
+.dropdownButton:hover{
+	cursor: pointer;
+}
+.dropdownButton > p .fa{
+	float: right;
+}
+.dropdownContent ul{
+	margin: 0;
+	padding: 0 10px;
+}
+
+div.Azul div.dropdownContent ul li { background: #82abdc; margin:5px;padding-left:5px; }
+div.Azul div.dropdownContent ul li:nth-child(odd) { background: #d3e2f5; margin:5px;padding-left:5px; }
+
+div.Amarillo div.dropdownContent ul li { background: #ffcd009e; margin:5px;padding-left:5px;}
+div.Amarillo div.dropdownContent ul li:nth-child(odd) { background: #f9eec0; margin:5px;padding-left:5px; }
+
+.dropdownContent,
+.dropdownButton{
+	border: 1px solid #994b4b;
+}
+.dropdownContent{
+	padding: 15px 8px;
+	background-color: #fff;
+	margin-top: -1px;
+}
+.dropdownContent ul li{
+	list-style: none;
+	padding: 5px 0;
+	font-weight:bold;
+}
